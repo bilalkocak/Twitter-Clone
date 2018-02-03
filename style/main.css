@@ -1,69 +1,73 @@
 div{
     display: flex;
 }
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-.GirisEkrani{
-    flex-direction: column;
+.LogOut{
+    width: 100%;
     height: 95%;
-    color: white;
-}
-.GirisEkrani-Icerik{
-    height: 300;
-    background-color: #1DA1F2;
-    border: 1px solid black;
 }
 
-.GirisEkrani-Icerik-Iletisim{
+.container{
+    flex-direction: column;
+    flex: 1;
     height: 95%;
+    border: 2px solid black;
+    background: #1DA1F2;
+}
+.LogOut-sol{
+    color: white;
     font-size: 18px;
-    color: white;
-    flex-direction: column;
-    margin: 270px auto;
-    border: 1px solid black;
-}
-
-.Iletisim-Item{
-    height: 20px;
-    margin-top: 40px;
-    border: 1px solid burlywood;
-}
-
-.GirisEkrani-Icerik-Form{
+    flex: 1;
     width: 50%;
-    height: 95%;
-    background-color: white;
+    height: 100%;
+    background-image: url(../images/twitter.svg);
+    background-repeat: no-repeat;
+    background-position-x: 280%;
+    background-position-y: -100px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.LogOut-sol-content-item{
+    margin: 48px auto;
+    width: 100%;
+}
+
+.LogOut-sag{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    border: 1px solid green;
+}
+
+.LogOut-sol-content{
     border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
-.GirisEkrani-Footer{
+.Footer{
     color: #aab8c2;
-    height: 3%;
-    background-color: white;
-    border-top: 0.1px solid #aab8c2;
-    padding-top:6px; 
-}
-.Footer-Item{
-    display: inline;
-    padding: 0 9px;
+    font-size: 12px;
+    height: 5%;
+    width: 100%;
+    background: white;
+    
 }
 
-.Footer-Item a{
-    font-size: 12px;
+.Footer ul{
+    align-content: space-around;
+    display: flex;
+}
+
+.Footer a{
+    padding: 0 9px;
     color: #aab8c2;
     text-decoration: none;
 }
-
-.Footer-Item a:hover{
+.Footer a:hover{
     text-decoration: underline;
 }
+    
