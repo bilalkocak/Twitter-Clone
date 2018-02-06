@@ -1,6 +1,16 @@
 div{
     display: flex;
 }
+a{
+    color: #aab8c2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .LogOut{
     width: 100%;
     height: 95%;
@@ -11,7 +21,7 @@ div{
     flex: 1;
     height: 95%;
     border: 2px solid black;
-    background: #1DA1F2;
+    background: #fff;
 }
 .LogOut-sol{
     color: white;
@@ -19,10 +29,7 @@ div{
     flex: 1;
     width: 50%;
     height: 100%;
-    background-image: url(../images/twitter.svg);
-    background-repeat: no-repeat;
-    background-position-x: 280%;
-    background-position-y: -100px;
+    background-image: url(../images/background.png);
     justify-content: center;
     align-content: center;
 }
@@ -39,6 +46,9 @@ div{
     width: 50%;
     height: 100%;
     border: 1px solid green;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .LogOut-sol-content{
@@ -71,3 +81,38 @@ div{
     text-decoration: underline;
 }
     
+
+
+.signup-header{
+    margin: 16px 0;
+    width: 100%;
+}
+.LoginForm-Password{
+    flex-direction: column;
+}
+.LogOut-sag-login{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.LogOut-sag-signup{
+    width: 350px;
+    height: 410px;
+    flex-direction: column;
+    border: 1px solid black;
+    align-content: center;
+    justify-content: center;
+}
+.suanda{
+    font-size: 27px;
+}
+.katil{
+    font-size: 18px;
+    margin: 16px 0;
+}
+.signup-button{
+    margin: 16px 0;
+    justify-content: space-between;
+}
+.giris{
+    color: #1c94e0;
+}
