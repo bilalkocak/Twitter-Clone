@@ -1,6 +1,7 @@
 div{
     display: flex;
 }
+
 a{
     color: #aab8c2;
     font-size: 14px;
@@ -18,34 +19,29 @@ a:hover{
 
 .container{
     flex-direction: column;
-    flex: 1;
     height: 95%;
-    border: 2px solid black;
     background: #fff;
 }
 .LogOut-sol{
     color: white;
     font-size: 18px;
-    flex: 1;
     width: 50%;
     height: 100%;
     background-image: url(../images/background.png);
-    justify-content: center;
+    background-repeat: space;
+    justify-content: space-around;
     align-content: center;
 }
 
 
 
 .LogOut-sol-content-item{
-    margin: 48px auto;
     width: 100%;
 }
 
 .LogOut-sag{
-    flex: 1;
     width: 50%;
     height: 100%;
-    border: 1px solid green;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -54,8 +50,10 @@ a:hover{
 .LogOut-sol-content{
     border: 1px solid black;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
+    width: 320px;
+    height: 264px;
 }
 
 .Footer{
@@ -64,16 +62,19 @@ a:hover{
     height: 5%;
     width: 100%;
     background: white;
-    
+    justify-content: space-around;
+    border: 1px solid red;
+    padding: 9px 0;
 }
 
 .Footer ul{
-    align-content: space-around;
     display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .Footer a{
-    padding: 0 9px;
+    padding: 0 6px;
     color: #aab8c2;
     text-decoration: none;
 }
@@ -92,15 +93,17 @@ a:hover{
 }
 .LogOut-sag-login{
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 0 20px;
 }
 .LogOut-sag-signup{
     width: 350px;
     height: 410px;
     flex-direction: column;
-    border: 1px solid black;
     align-content: center;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .suanda{
     font-size: 27px;
@@ -115,4 +118,51 @@ a:hover{
 }
 .giris{
     color: #1c94e0;
+}
+
+.btn-giris{
+    background-color:#fff;
+    border: 1px solid #1c94e0;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 20px;
+    color: #1c94e0;
+}
+.btn-giris:hover{
+    background-color: #eaf5fd
+}
+
+.btn-basla{
+    background-color:#006dbf;
+    padding: 10px 16px;
+    margin-top: 12px;
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    align-items: flex-start;
+}
+.btn-basla:hover{
+    background-color: #1c94e0;
+}
+
+.LoginForm-UserName{
+    margin-right: 12px;
+}
+
+.txtbox-giris{
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+    padding: 12px;
+    margin-top:12px;
+    width: 184px;
+    height: 20px;
+}
+
+.txtbox-kayit{
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 8px 0;
+    width: 350px;
+    height: 20px;
 }
