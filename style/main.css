@@ -15,6 +15,8 @@ a:hover{
 .LogOut{
     width: 100%;
     height: 95%;
+    
+
 }
 
 .container{
@@ -29,8 +31,10 @@ a:hover{
     height: 100%;
     background-image: url(../images/background.png);
     background-repeat: space;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
+    min-height: 626px;
+    
 }
 
 
@@ -48,12 +52,12 @@ a:hover{
 }
 
 .LogOut-sol-content{
-    border: 1px solid black;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
     width: 320px;
     height: 264px;
+    margin-top:140px;
 }
 
 .Footer{
@@ -63,7 +67,6 @@ a:hover{
     width: 100%;
     background: white;
     justify-content: space-around;
-    border: 1px solid red;
     padding: 9px 0;
 }
 
