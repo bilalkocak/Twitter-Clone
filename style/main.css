@@ -95,6 +95,7 @@ a:hover{
     flex-direction: column;
 }
 .LogOut-sag-login{
+    margin-top: 40px;
     flex-direction: row;
     justify-content: center;
     padding: 0 20px;
@@ -130,9 +131,14 @@ a:hover{
     margin-top: 12px;
     border-radius: 20px;
     color: #1c94e0;
+    height: 42px;
+    margin-left: 5px;
 }
 .btn-giris:hover{
     background-color: #eaf5fd
+}
+.unut{
+    margin-top: 2px;
 }
 
 .btn-basla{
@@ -168,4 +174,8 @@ a:hover{
     margin: 8px 0;
     width: 350px;
     height: 20px;
+}
+.giris-form{
+    display: flex;
+    flex-direction: row;
 }

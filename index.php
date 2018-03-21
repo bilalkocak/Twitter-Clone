@@ -15,7 +15,7 @@
             <div class="LogOut-sol">
                <div class="LogOut-sol-content">
                     <div class="LogOut-sol-content-item">
-                        <img src="images/search.png" height="35" width="35"> İlgi alanlarını takip et.
+                        <img src="images/search.png" height="35" width="35">İlgi alanlarını takip et."
                     </div>
                     <div class="LogOut-sol-content-item">
                         <img src="images/people.png" height="35" width="35"> İnsanların konuştukları konular.
@@ -27,7 +27,7 @@
             </div>
             <div class="LogOut-sag">
                     <div class="LogOut-sag-login">
-                        <form action="">
+                        <form action="" class="giris-form">
                             <div class="LoginForm-UserName">
                                 <input type="text" class="txtbox-giris" placeholder="Telefon, e-posta veya kullanıcı adı."/>
                             </div>
@@ -68,23 +68,23 @@
         </div>
         <div class="Footer">
             <ul class="">
-                <li class=""><a href="/about" rel="noopener">Hakkımızda</a></li>
-                <li class=""><a href="//support.twitter.com" rel="noopener">Yardım Merkezi</a></li>
-                <li class=""><a href="https://blog.twitter.com" rel="noopener">Blog</a></li>                    
-                <li class=""><a href="http://status.twitter.com" rel="noopener">Durum</a></li>
-                <li class=""><a href="https://about.twitter.com/careers" rel="noopener">Kariyer</a></li>
-                <li class=""><a href="/tos" rel="noopener">Koşullar</a></li>
-                <li class=""><a href="/privacy" rel="noopener">Gizlilik Politikası</a></li>
-                <li class=""><a href="//support.twitter.com/articles/20170514" rel="noopener">Çerezler</a></li>
-                <li class=""><a href="//support.twitter.com/articles/20170451" rel="noopener">Reklam bilgileri</a></li>
-                <li class=""><a href="//about.twitter.com/press/brand-assets" rel="noopener">Marka</a></li>
-                <li class=""><a href="https://about.twitter.com/products" rel="noopener">Uygulamalar</a></li>
-                <li class=""><a href="//ads.twitter.com/?ref=gl-tw-tw-twitter-advertise" rel="noopener">Reklam</a></li>
-                <li class=""><a href="https://marketing.twitter.com" rel="noopener">Pazarlama</a></li>
-                <li class=""><a href="https://business.twitter.com" rel="noopener">İşletmeler</a></li>
-                <li class=""><a href="//dev.twitter.com" rel="noopener">Geliştiriciler</a></li>
-                <li class=""><a href="/i/directory/profiles" rel="noopener">Rehber</a></li>
-                <li class=""><a href="/settings/personalization" rel="noopener">Ayarlar</a></li>
+                <li class=""><a href="" rel="">Hakkımızda</a></li>
+                <li class=""><a href="" rel="">Yardım Merkezi</a></li>
+                <li class=""><a href="" rel="">Blog</a></li>                    
+                <li class=""><a href="" rel="">Durum</a></li>
+                <li class=""><a href="" rel="">Kariyer</a></li>
+                <li class=""><a href="" rel="">Koşullar</a></li>
+                <li class=""><a href="" rel="">Gizlilik Politikası</a></li>
+                <li class=""><a href="" rel="">Çerezler</a></li>
+                <li class=""><a href="" rel="">Reklam bilgileri</a></li>
+                <li class=""><a href="" rel="">Marka</a></li>
+                <li class=""><a href="" rel="">Uygulamalar</a></li>
+                <li class=""><a href="" rel="">Reklam</a></li>
+                <li class=""><a href="" rel="">Pazarlama</a></li>
+                <li class=""><a href="" rel="">İşletmeler</a></li>
+                <li class=""><a href="" rel="">Geliştiriciler</a></li>
+                <li class=""><a href="" rel="">Rehber</a></li>
+                <li class=""><a href="" rel="">Ayarlar</a></li>
                 <li class="">© 2018 Twitter</li>
             </ul>
         </div>
