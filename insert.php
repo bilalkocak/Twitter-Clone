@@ -1,5 +1,5 @@
 <?php 
-
+require_once('header.php');
 
 
 //form gönderilmiş mi
