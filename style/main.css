@@ -49,6 +49,7 @@ a:hover{
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    min-height:626px ;
 }
 
 .LogOut-sol-content{
@@ -91,9 +92,7 @@ a:hover{
     margin: 16px 0;
     width: 100%;
 }
-.LoginForm-Password{
-    flex-direction: column;
-}
+z
 .LogOut-sag-login{
     margin-top: 40px;
     flex-direction: row;
@@ -102,7 +101,7 @@ a:hover{
 }
 .LogOut-sag-signup{
     width: 350px;
-    height: 410px;
+    height: 600px;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -175,6 +174,16 @@ a:hover{
     width: 350px;
     height: 20px;
 }
+
+.txtbox-kayit-adsoyad{
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 8px 0;
+    width: 149px;
+    height: 20px;
+}
+
 .giris-form{
     display: flex;
     flex-direction: row;
