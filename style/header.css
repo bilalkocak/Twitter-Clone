@@ -1,0 +1,92 @@
+div{display: flex}
+body{
+    font-size:13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700 ;
+}
+.header{
+    margin:0 5%;
+    width: 90%;
+    border-bottom:1px solid #1c94e0;
+    justify-content: space-between;
+}
+
+.header-sol{
+    flex-direction: row;
+    height: 46px;
+}
+
+.header-sol-buton{
+    width: 110px;
+    justify-content: space-around;
+}
+
+.header-sol-buton a{
+    display: flex;
+    text-decoration: none;
+    color: #1c94e0;
+    margin-top: 14px;
+}
+.header-ara{
+    background-color: #f5f8fa;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border: 1px solid #e6ecf0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: none;
+    color: #14171a;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 16px;
+    padding: 8px 32px 8px 12px;
+    width: 100%;
+}
+.header-sol-buton:hover {
+    background-color: #f5f8fa;
+}
+.ara-buton{
+    width: 50px;
+    height: 32px;
+    text-decoration: none;
+    color: #14171a;
+    background-color:#f5f8fa;
+    padding: 10px 16px;
+    border: 1px solid #e6ecf0;
+    border-left: none;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    align-items: flex-start;
+}
+
+.form{
+    margin-top: 5px;    
+}
+
+.header-sag{
+   
+}
+
+.header-sag form{display: flex};
+
+.header-logo{
+    align-content: center;
+}
+
+.header-sag-menu{
+
+}
+
+.header-sag-menu-icon{
+    widows: 32px;
+    height: 32px;
+    border: 1px solid #1c94e0;
+    border-radius: 16px;
+    margin-top:7px;
+}
+
+.logo{
+    width: 21px;
+    margin-top: 13px;
+}

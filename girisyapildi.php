@@ -1,6 +1,5 @@
 <?php
-echo "kayıtlı kullanıcı";
-echo $_SESSION['uye_kadi'];
+echo $_SESSION['uye_kadi']."  kullanıcı adıyla giriş yapıldı";
 ?>
 
 <a href="cikis.php">[ÇIKIŞ YAP]</a>
