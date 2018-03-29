@@ -9,10 +9,10 @@
         <h2 class="katil">Twitter'a giriş yap.</h2>
         <form action="girisyap.php" method="post">
             <div class="signup-posta">
-                <input type="email" class="txtbox-kayit" name="" id="" placeholder="E-posta">
+                <input type="email" class="txtbox-kayit" name="uye_mail"  placeholder="E-posta">
             </div>
             <div class="signup-sifre">
-                <input type="password" class="txtbox-kayit" name="" id="" placeholder="Şifre">
+                <input type="password" class="txtbox-kayit" name="uye_sifre"  placeholder="Şifre">
             </div>
             <div class="signup-button">
                 <input type="submit" class="btn-basla" value="Giriş yap">
