@@ -21,11 +21,11 @@ if(!isset($_POST['submit'])){
     uye_kadi=?,
     uye_sifre=?');
     $ekle=$sorgu->execute([
-        (string)$uye_mail,
-        (string)$uye_adi,
-        (string)$uye_soyadi,
-        (string)$uye_kadi,
-        (string)$uye_sifre
+        "$uye_mail",
+        "$uye_adi",
+        "$uye_soyadi",
+        "$uye_kadi",
+        "$uye_sifre"
     ]);
 
     if($ekle){//ekleme gerçekleştiyse

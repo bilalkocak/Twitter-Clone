@@ -21,9 +21,9 @@
                 <input type="password" class="txtbox-kayit" name="uye_sifre" placeholder="Şifre">
             </div>
             
-           <!-- <div class="signup-sifre">
+           <div class="signup-sifre">
                 <input type="password" class="txtbox-kayit" name="uye_sifret" placeholder="Tekrar Şifre">
-            </div> -->
+            </div>
             
             <div class="signup-button">
                 <input type="submit" class="btn-basla" value="Kayıt Ol">
