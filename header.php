@@ -3,13 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <title>Twitter</title>
-        <link rel="stylesheet" href="./style/reset.css">
-        <link rel="stylesheet" href="./style/header.css">
-        <link rel="shortcut icon" href="./images/twitter.png">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/girisyapildi.css">
+        <link rel="shortcut icon" href="images/twitter.png">
     </head>
     <body>
         <div class="header">
-            <div class="container">
+            <div class="header-icerik">
                 <div class="header-sol">
                     <div class="header-sol-buton">
                         <a href="">Anasayfa</a>
@@ -27,10 +28,8 @@
                         <input type="submit" class="ara-buton" value="Ara">
                     </form>
                     <div class="header-sag-menu">
-                        <a href=""> <img src="images/twitter.png" class="header-sag-menu-icon"> </a>
+                        <a href=""> <img src="<?php echo $_SESSION['uye_pp']; ?>" class="header-sag-menu-icon"> </a>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
-</html>

@@ -3,13 +3,15 @@ body{
     font-size:13px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700 ;
+    background: #E6ECF0;
 }
 .header{
     width: 100%;
     border-bottom:1px solid #1c94e0;
+    background: white;
    
 }
-.container{
+.header-icerik{
     margin:0 5%;
     width: 90%;
     justify-content: space-between;
@@ -80,9 +82,9 @@ body{
 .header-sag-menu-icon{
     widows: 32px;
     height: 32px;
-    border: 1px solid #1c94e0;
     border-radius: 16px;
     margin-left: 5px;
+    border: none;
 }
 
 .logo{

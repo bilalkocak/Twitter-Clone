@@ -1,0 +1,76 @@
+div{display: flex}
+a{text-decoration: none; color: black;}
+a:hover{text-decoration: underline}
+.container{
+    justify-content: space-around;
+    margin: 0 5%;
+}
+.girisyapildi-sol{
+    width: 25%;
+}
+
+.girisyapildi-orta{
+    border: 1px solid lightskyblue;
+    width: 50%;
+    background-color: white;
+}
+
+.girisyapildi-sag{
+    border: 1px solid lightskyblue;
+    width: 25%;
+    background-color: white;
+}
+.kart{
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.kart-kimlik{
+    flex-direction: column;
+}
+
+.kart-kapak-img{
+    width: 288px;
+    height: 95px;
+}
+
+.kart-pp-img{
+    margin-left: 5px;
+    margin-top: -38px;
+    width: 72px;
+    height: 72px;
+    border-radius: 38px;
+    border: 2px solid #fff;
+}
+
+.kart-kimlik{
+    margin-left: 10px;
+}
+
+.kart-kimlik-isim{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.kart-kimlik-kadi a{
+    color: #657786;
+    font-size: 14px;
+}
+.kapak-bilgi-istatistik{
+    margin-top: 10px;
+    margin-left: 5px;
+    justify-content: space-around;
+}
+
+.kapak-bilgi-istatistik a{
+    color: #657786;
+    font-size: 12px;
+}
+ 
+.kapak-bilgi-istatistik div{
+    margin-top: 10px;
+    flex-direction: column;
+}
+.kapak-bilgi-istatistik div .sayi{
+    font-size: 18px;
+    color: #1c94e0;
+}

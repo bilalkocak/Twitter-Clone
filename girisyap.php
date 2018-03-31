@@ -14,6 +14,13 @@
         
         if($uye_mail==$uyeler['uye_mail']&&$uye_sifre==$uyeler['uye_sifre']){
             $_SESSION['uye_kadi']=$uyeler['uye_kadi'];
+            $_SESSION['uye_mail']=$uyeler['uye_mail'];
+            $_SESSION['uye_sifre']=$uyeler['uye_sifre'];
+            $_SESSION['uye_adi']=$uyeler['uye_adi'];
+            $_SESSION['uye_soyadi']=$uyeler['uye_soyadi'];
+            $_SESSION['uye_pp']=$uyeler['uye_pp'];
+            $_SESSION['uye_kapak']=$uyeler['uye_kapak'];
+            
             
             include('girisyapildi.php');
         }else{
