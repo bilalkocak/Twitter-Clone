@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Twitter</title>
-        <link rel="stylesheet" href="style/reset.css">
-        <link rel="stylesheet" href="style/header.css">
-        <link rel="shortcut icon" href="images/twitter.png">
+        <link rel="stylesheet" href="./style/reset.css">
+        <link rel="stylesheet" href="./style/header.css">
+        <link rel="shortcut icon" href="./images/twitter.png">
     </head>
     <body>
         <div class="header">

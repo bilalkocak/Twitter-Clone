@@ -16,6 +16,8 @@
             $_SESSION['uye_kadi']=$uyeler['uye_kadi'];
             
             include('girisyapildi.php');
+        }else{
+            header('Location:http://localhost/Twitter/index.php?hata=sifre');
         }
     }
 

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Twitter. İşte olup bitenler.</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="shortcut icon" href="images/twitter.png">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="shortcut icon" href="./images/twitter.png">
 </head>
 <body>
     <div class="container">
@@ -13,13 +13,13 @@
             <div class="LogOut-sol">
                <div class="LogOut-sol-content">
                     <div class="LogOut-sol-content-item">
-                        <img src="images/search.png" height="35" width="35">İlgi alanlarını takip et.
+                        <img src="./images/search.png" height="35" width="35">İlgi alanlarını takip et.
                     </div>
                     <div class="LogOut-sol-content-item">
-                        <img src="images/people.png" height="35" width="35"> İnsanların konuştukları konular.
+                        <img src="./images/people.png" height="35" width="35"> İnsanların konuştukları konular.
                     </div>
                     <div class="LogOut-sol-content-item">
-                        <img src="images/communication.png" height="35" width="35"> Sohbete katıl.
+                        <img src="./images/communication.png" height="35" width="35"> Sohbete katıl.
                     </div>      
                </div>
             </div>
