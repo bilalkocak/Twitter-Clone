@@ -5,9 +5,13 @@ body{
     font-weight: 700 ;
 }
 .header{
+    width: 100%;
+    border-bottom:1px solid #1c94e0;
+   
+}
+.container{
     margin:0 5%;
     width: 90%;
-    border-bottom:1px solid #1c94e0;
     justify-content: space-between;
 }
 
@@ -25,20 +29,19 @@ body{
     display: flex;
     text-decoration: none;
     color: #1c94e0;
-    margin-top: 14px;
+    margin: auto;
 }
 .header-ara{
+    margin: auto;
+    display: flex;
+    height: 14px;
     background-color: #f5f8fa;
-    border-top-left-radius: 21px;
-    border-bottom-left-radius: 21px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
     border: 1px solid #e6ecf0;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     border-right: none;
     color: #14171a;
-    display: block;
     font-size: 12px;
-    height: 32px;
     line-height: 16px;
     padding: 8px 32px 8px 12px;
     width: 100%;
@@ -47,6 +50,7 @@ body{
     background-color: #f5f8fa;
 }
 .ara-buton{
+    margin: auto;
     width: 50px;
     height: 32px;
     text-decoration: none;
@@ -61,32 +65,30 @@ body{
 }
 
 .form{
-    margin-top: 5px;    
+    display: flex; 
 }
 
 .header-sag{
-   
-}
-
-.header-sag form{display: flex};
-
-.header-logo{
     align-content: center;
 }
 
 .header-sag-menu{
-
+    margin: auto;
 }
+
 
 .header-sag-menu-icon{
     widows: 32px;
     height: 32px;
     border: 1px solid #1c94e0;
     border-radius: 16px;
-    margin-top:7px;
+    margin-left: 5px;
 }
 
 .logo{
     width: 21px;
-    margin-top: 13px;
+    margin: auto;
+}
+.header-logo{
+    margin: auto;
 }
