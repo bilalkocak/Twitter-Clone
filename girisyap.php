@@ -24,7 +24,7 @@
             
             include('girisyapildi.php');
         }else{
-            header('Location:http://localhost/Twitter/index.php?hata=sifre');
+            header('Location:index.php?hata=sifre');
         }
     }
 
