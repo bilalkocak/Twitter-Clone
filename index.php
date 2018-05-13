@@ -1,4 +1,9 @@
-<?php include('anasayfacerceveust.php')  ?>
+<?php include('anasayfacerceveust.php');
+
+
+if ($_COOKIE['oturum']=='acik') {
+    header("location:girisyapildi.php");
+}?>
 
 <div class="LogOut-sag">                  
     <div class="LogOut-sag-signup">
@@ -24,4 +29,4 @@
     </div>
 </div>
 
-<?php include('anasayfacercevealt.php')  ?>
+<?php include('anasayfacercevealt.php');?>
