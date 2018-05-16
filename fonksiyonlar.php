@@ -149,7 +149,35 @@ function yorumSayisiHesapla($db,$tweet_id){
 
     echo $sonuc['count(tweet_id)'];
 }
+//profil düzenle
 
+if (isset($_POST['profil-duzenle'])){
+    $duzenlemesorgusu=$db->prepare('UPDATE members SET
+ uye_adi=?,
+ uye_soyadi=?,
+ uye_kadi=?,
+ uye_kapak=?,
+ uye_mail=?,
+ uye_pp=?,
+ uye_sifre=?,
+ uye_bio=?,
+ uye_website=?,
+ uye_konum=?
+  WHERE uye_id=?');
+    $duzenlemesorgusu->execute([
+        $_POST['uye_adi'],
+        $_POST['uye_soyadi'],
+        $_POST['uye_kadi'],
+        $_POST['uye_kapak'],
+        $_POST['uye_mail'],
+        $_POST['uye_pp'],
+        $_POST['uye_sifre'],
+        $_POST['uye_bio'],
+        $_POST['uye_website'],
+        $_POST['uye_konum']
+    ]);
+    header('Location:profil.php');
+}
 
 
 ?>
