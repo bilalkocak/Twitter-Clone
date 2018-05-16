@@ -26,7 +26,7 @@ if ($_COOKIE['oturum']!='acik') {
                         <a href="girisyapildi.php">Anasayfa</a>
                     </div>
                     <div class="header-sol-buton">
-                        <a href="profil.php?id=<?php echo $_COOKIE['id'] ?>">Profil</a>
+                        <a href="profil.php">Profil</a>
                     </div>
                 </div>
                 <div class="header-logo">

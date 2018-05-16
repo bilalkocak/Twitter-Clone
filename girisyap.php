@@ -21,6 +21,9 @@
             setcookie('uye_pp',$uyeler['uye_pp'],time()+86400);
             setcookie('uye_kapak',$uyeler['uye_kapak'],time()+86400);
             setcookie('oturum',$oturum,time()+86400);
+            setcookie('site',$uyeler['uye_website'],time()+86400);
+            setcookie('bio',$uyeler['uye_bio'],time()+86400);
+            setcookie('konum',$uyeler['uye_konum'],time()+86400);
             header("Location:girisyapildi.php");
         }else{
             header('Location:index.php?hata=sifre');

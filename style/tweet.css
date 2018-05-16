@@ -1,25 +1,62 @@
 .tweet{
-    margin-top: 10px;
+    padding-top: 10px;
     cursor: pointer;
     min-height: 80px;
     border-bottom: 1px solid #657786;
-}
-.tweet-sol{
     flex-direction: column;
+}
+.tweet-ust{
+    margin-left: 5%;
 }
 
 .tweet:hover{
     background: #f5f8fa;
 }
 .icerik{
+    margin-left: 5%;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+.bilgi{
+    height: 20px;
+    padding-top: 8px;
+    flex-direction: column;
+}
+
+.adi{
+    font-size: 20px;
+}
+
+.kadi{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.tarih{
+    margin-left: 5%;
     margin-bottom: 10px;
-    margin-top: 10px;
+    font-weight: normal;
+}
+
+.tweet-alt{
+    margin-left: 5%;
+    width: 90%;
+    padding-left: 10px;
+    border-top: 1px solid #657786;
+    border-bottom: 1px solid #657786;
+    height: 30px;
+    padding-top:10px;
+    margin-bottom: 10px;
+}
+.tweet-alt div{
+    margin-right: 10px;
 }
 
 .pp-img{
-    margin-left: 5px;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 38px;
     border: 2px solid #fff;
     margin-right: 5px;
@@ -58,4 +95,119 @@
 .tweet-gonder-button{
     justify-content: flex-end;
     margin-right: 5px;
+}
+
+
+/*alt tweet*/
+.alttweet{
+    padding-top: 10px;
+    cursor: pointer;
+    min-height: 80px;
+    border-bottom: 1px solid #657786;
+    padding-left: 9%;
+
+}
+.alttweet-sag{
+    flex-direction: column;
+}
+
+.alttweet:hover{
+    background: #f5f8fa;
+}
+.alticerik{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: normal;
+    width: 500px;
+}
+
+.altpp-img{
+    margin-left: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 38px;
+    border: 2px solid #fff;
+    margin-right: 5px;
+}
+
+.alttweet-gonder-metin{
+    justify-content: center;
+}
+
+.yanit-olarak{
+    color: #657786;
+    font-weight: normal;
+    margin-top:6px;
+}
+
+.yanit-olarak a{
+    font-weight: bold;
+}
+
+.alttweet-alt{
+    width: 90%;
+    border-top: 1px solid #657786;
+    border-bottom: 1px solid #657786;
+    height: 30px;
+    padding-top:10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.alttweet-alt div{
+    margin-right: 10px;
+}
+
+.alttarih{
+    font-weight: normal;
+}
+
+.alttweetAt textarea{
+    border-radius:10px;
+    border: 2px solid #1c94e0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    color: #657786;
+}
+
+.alttweetAt textarea:focus {
+    outline: none;
+}
+
+.alttw-button{
+    width: 84px;
+    height: 34px;
+    border-radius: 17px;
+    background: #1c94e0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.alttweet-gonder-button{
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.begenen{
+    padding: 10px;
+    border: 1px solid #aab8c2;
+}
+
+.like-button{
+    color: white;
+}
+
+.begenen-pp{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.begenen-bilgi{
+    flex-direction: column;
 }
