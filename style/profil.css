@@ -1,0 +1,150 @@
+.profil-kapak{
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 20px;
+    height: 300px;
+}
+.profil-kimlik{
+    flex-direction: column;
+}
+
+.profil-kapak-img{
+    width: 288px;
+    height: 95px;
+}
+
+.profil-pp-img{
+    margin-left: 5px;
+    margin-top: -38px;
+    width: 72px;
+    height: 72px;
+    border-radius: 38px;
+    border-bottom: 2px solid #fff;
+}
+
+.profil-kimlik{
+    margin-left: 10px;
+}
+
+.profil-kimlik-isim{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.profil-kimlik-kadi a{
+    color: #657786;
+    font-size: 14px;
+}
+.profil-bilgi-istatistik{
+    margin-top: 10px;
+    margin-left: 5px;
+    justify-content: space-around;
+}
+
+.profil-bilgi-istatistik a{
+    color: #657786;
+    font-size: 12px;
+}
+ 
+.profil-bilgi-istatistik div{
+    margin-top: 10px;
+    flex-direction: column;
+}
+.profil-bilgi-istatistik div .sayi{
+    font-size: 18px;
+    color: #1c94e0;
+}
+
+
+/*  profil üst üye bilgileri alanı      */
+
+.profilkart{
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.background{
+    background:#e6ecf0;
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+.profilkapak-bilgi{
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.background div{
+    margin-top: 10px;
+}
+
+.profilkart-kimlik{
+    flex-direction: column;
+}
+
+.profilkart-kapak-img{
+    width: 1345px;
+    height: 300px;
+}
+
+.profilkart-pp-img{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    margin-top: -100px;
+}
+
+.profilkart-kimlik{
+    font-weight: bold;
+}
+
+.profilgirisyapildi-sol{
+    width: 25%;
+}
+
+.profilkart-kimlik-isim{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.profilkart-kimlik-kadi a{
+    color: #657786;
+    font-size: 14px;
+}
+.profilkapak-bilgi-istatistik{
+    margin-left: 200px;
+    margin-top: -90px;
+    justify-content: space-around;
+}
+
+.profilkapak-bilgi-istatistik a{
+    color: #657786;
+    font-size: 12px;
+}
+
+.profilkapak-bilgi-istatistik div{
+    flex-direction: column;
+}
+.profilkapak-bilgi-istatistik div .sayi{
+    font-size: 18px;
+    color: #1c94e0;
+}
+
+.biografi{
+    margin-top: 10px;
+}
+
+.takip-button{
+    border: 1px solid #1c94e0;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.profil-duzenle{
+    flex-direction: column;
+}

@@ -47,7 +47,7 @@ while ($tweets=$query->fetch(PDO::FETCH_ASSOC)) {
                         <?php echo $tweets[tweet_icerik];   ?>
                     </div>
                     <div class="icerik-foto">
-                        <!--yapılacak-->
+                        <img src="<?php echo $tweets[tweet_img]  ?>" style="max-width: 530px;max-height: 300px;border-radius: 20px">
                     </div>
 
                 </div>

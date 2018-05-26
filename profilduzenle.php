@@ -39,30 +39,16 @@ $uyebilgileri=$uyebilgisorgu->fetch(PDO::FETCH_ASSOC);
                     <input type="text" name="uye_kadi" value="<?php echo $uyebilgileri['uye_kadi'] ?>">
                 </td>
             </tr>
-            <tr>
-                <td>
-                    Kapak Fotoğrafı:
-                </td>
-                <td>
-                    <input type="file" name="uye_kapak" value="<?php echo $uyebilgileri['uye_kapak'] ?>">
-                </td>
-            </tr>
+
             <tr>
                 <td>
                     Mail Adresi:
                 </td>
                 <td>
-                    <input type="email" name="uye_mail" value="<?php echo $uyebilgileri['uye_bilgileri'] ?>">
+                    <input type="email" name="uye_mail" value="<?php echo $uyebilgileri['uye_mail'] ?>">
                 </td>
             </tr>
-            <tr>
-                <td>
-                    Profil Fotoğrafı:
-                </td>
-                <td>
-                    <input type="file" name="uye_pp" value="<?php echo $uyebilgileri['uye_pp'] ?>">
-                </td>
-            </tr>
+
             <tr>
                 <td>
                     Şifre:
@@ -109,4 +95,36 @@ $uyebilgileri=$uyebilgisorgu->fetch(PDO::FETCH_ASSOC);
         </table>
     </form>
 </div>
+<form action="fonksiyonlar.php" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>
+                Kapak Fotoğrafı:
+            </td>
+            <td>
+                <input type="file" name="uye-kapak" value="<?php echo $uyebilgileri['uye_kapak'] ?>">
+            </td>
+            <td>
+                <button type="submit" name="kapak-guncelle">Gönder</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<form action="fonksiyonlar.php" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>
+                Profil Fotoğrafı:
+            </td>
+            <td>
+                <input type="file" name="uye_pp" value="<?php echo $uyebilgileri['uye_pp'] ?>">
+            </td>
+            <td>
+                <button type="submit" name="pp-guncelle">Gönder</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
 

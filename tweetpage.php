@@ -88,7 +88,7 @@ $ustuyequery->execute([
                         <?php echo $usttweet[tweet_icerik];   ?>
                     </div>
                     <div class="icerik-foto">
-                        <!--yapılacak-->
+                        <img src="<?php echo $usttweet['tweet_img']  ?>" style="max-width: 530px;max-height: 300px;border-radius: 20px">
                     </div>
 
                 </div>
@@ -218,7 +218,7 @@ $ustuyequery->execute([
                             <?php echo $alttweet[tweet_icerik];   ?>
                         </div>
                         <div class="alticerik-foto">
-                            <!--yapılacak-->
+                            <img src="<?php echo $alttweet['tweet_img']  ?>" style="max-width: 430px;max-height: 300px;border-radius: 20px">
                         </div>
 
                     </div>
@@ -286,11 +286,14 @@ $ustuyequery->execute([
     </div>
     <div class="girisyapildi-sag">
         <div class="alttweetAt">
-            <form action="fonksiyonlar.php" method="post">
+            <form action="fonksiyonlar.php" method="post" enctype="multipart/form-data">
                 <div class="tweet-gonder-metin">
                     <textarea  cols="40" rows="10" class="txtbox-kayit" name="mention_icerik" maxlength="240" style="resize: none" placeholder="Cevap ver..!"></textarea>
                 </div>
                 <input type="hidden" value="<?php echo $_GET['tweet']  ?> " name="usttweet_id">
+                <div class="foto">
+                    <input type="file" name="mention-resim"  >(JPEG)
+                </div>
                 <div class="tweet-gonder-button">
                     <input type="submit" name="mention_at" class="tw-button" value="Tweetle">
                 </div>

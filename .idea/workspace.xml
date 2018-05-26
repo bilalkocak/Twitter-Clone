@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="079ae261-474e-4c86-b951-fd983dbebb15" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/profil.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/style/profil.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tweetlistele.php" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonksiyonlar.php" afterPath="$PROJECT_DIR$/fonksiyonlar.php" />
+      <change beforePath="$PROJECT_DIR$/girisyapildi.php" afterPath="$PROJECT_DIR$/girisyapildi.php" />
+      <change beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change beforePath="$PROJECT_DIR$/kenditweetlistele.php" afterPath="$PROJECT_DIR$/kenditweetlistele.php" />
+      <change beforePath="$PROJECT_DIR$/profilduzenle.php" afterPath="$PROJECT_DIR$/profilduzenle.php" />
+      <change beforePath="$PROJECT_DIR$/style/tweet.css" afterPath="$PROJECT_DIR$/style/tweet.css" />
+      <change beforePath="$PROJECT_DIR$/tweetat.php" afterPath="$PROJECT_DIR$/tweetat.php" />
+      <change beforePath="$PROJECT_DIR$/tweetpage.php" afterPath="$PROJECT_DIR$/tweetpage.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="fonksiyonlar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fonksiyonlar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding>
+                <marker date="1526590295735" expanded="true" signature="117:179" ph="Select count... follows" />
+                <marker date="1526590295735" expanded="true" signature="397:459" ph="Select count... follows" />
+                <marker date="1526590295735" expanded="true" signature="682:729" ph="Select count... tweets" />
+                <marker date="1526590295735" expanded="true" signature="1590:1648" ph="INSERT INTO tweets... " />
+                <marker date="1526590295735" expanded="true" signature="2108:2171" ph="insert into tweets... " />
+                <marker date="1526590295735" expanded="true" signature="3150:3222" ph="INSERT INTO tweets... " />
+                <marker date="1526590295735" expanded="true" signature="3730:3816" ph="insert into tweets... " />
+                <marker date="1526590295735" expanded="true" signature="4139:4197" ph="insert into likes... " />
+                <marker date="1526590295735" expanded="true" signature="4474:4538" ph="delete FROM likes... " />
+                <marker date="1526590295735" expanded="true" signature="4774:4824" ph="Select count... likes" />
+                <marker date="1526590295735" expanded="true" signature="5034:5095" ph="DELETE FROM follows... " />
+                <marker date="1526590295735" expanded="true" signature="5314:5370" ph="INSERT INTO follows... " />
+                <marker date="1526590295735" expanded="true" signature="5610:5664" ph="Select count... tweets" />
+                <marker date="1526590295735" expanded="true" signature="6301:6603" ph="UPDATE `members`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="91" />
+    <option name="y" value="-19" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uploadklasoru" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="079ae261-474e-4c86-b951-fd983dbebb15" name="Default" comment="" />
+      <created>1527077343642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527077343642</updated>
+      <workItem from="1527077350549" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="82000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fonksiyonlar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1526590295735" expanded="true" signature="117:179" ph="Select count... follows" />
+            <marker date="1526590295735" expanded="true" signature="397:459" ph="Select count... follows" />
+            <marker date="1526590295735" expanded="true" signature="682:729" ph="Select count... tweets" />
+            <marker date="1526590295735" expanded="true" signature="1590:1648" ph="INSERT INTO tweets... " />
+            <marker date="1526590295735" expanded="true" signature="2108:2171" ph="insert into tweets... " />
+            <marker date="1526590295735" expanded="true" signature="3150:3222" ph="INSERT INTO tweets... " />
+            <marker date="1526590295735" expanded="true" signature="3730:3816" ph="insert into tweets... " />
+            <marker date="1526590295735" expanded="true" signature="4139:4197" ph="insert into likes... " />
+            <marker date="1526590295735" expanded="true" signature="4474:4538" ph="delete FROM likes... " />
+            <marker date="1526590295735" expanded="true" signature="4774:4824" ph="Select count... likes" />
+            <marker date="1526590295735" expanded="true" signature="5034:5095" ph="DELETE FROM follows... " />
+            <marker date="1526590295735" expanded="true" signature="5314:5370" ph="INSERT INTO follows... " />
+            <marker date="1526590295735" expanded="true" signature="5610:5664" ph="Select count... tweets" />
+            <marker date="1526590295735" expanded="true" signature="6301:6603" ph="UPDATE `members`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
